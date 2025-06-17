@@ -1,0 +1,31 @@
+[
+    {
+        "name": "VueJS知识问答",
+        "platforms": [
+            {
+                "name": "腾讯-元器",
+                "type": "yuanqi",
+                "id": "",
+                "url": ""
+            },
+            {
+                "name": "字节-扣子",
+                "type": "kouzi",
+                "id": "",
+                "url": ""
+            },
+            {
+                "name": "清华-智谱",
+                "type": "zhipu",
+                "id": "",
+                "url": ""
+            },
+            {
+                "name": "百度-文心",
+                "type": "wenxin",
+                "id": "",
+                "url": ""
+            }
+        ]
+    }
+]
