@@ -2,8 +2,7 @@ import axios from 'axios';
 import { SSE } from 'sse.js';
 
 const instance = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || "http://agent-sls.yzsunlei.com",
-  // baseURL: 'http://agent-sls.yzsunlei.com',
+  baseURL: import.meta.env.VITE_SERVICE_URL,
   timeout: 60000
 })
 
@@ -29,8 +28,9 @@ export const postAnswerApi = async ({ question, agent, platform }) => {
 };
 
 export const postConversationApi = ({ question, agent, platform }, onMessage) => {
+  console.log("postConversationApi", import.meta);
   const access_token = localStorage.getItem(`AGENT_${platform?.type}_TOKEN`);
-  const url = new URL('/api/postConversation', import.meta.env.VITE_API_BASE_URL || 'http://agent-sls.yzsunlei.com');
+  const url = new URL('/api/postConversation', import.meta.env.VITE_SERVICE_URL);
 
   const body = {
     question,
