@@ -3,26 +3,23 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "MyAgents",
-  description: "A tools aggregated by lots of agents",
+  description: "有用的AI智能体集合",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
+      { text: '首页', link: '/' },
+      { text: '使用MyAgents', link: '/' },
+      { text: 'Agent 介绍', link: '/agent-desc' },
+      { text: 'Agent 平台', link: '/agent-platform' },
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      { icon: 'github', link: 'https://github.com/yzsunlei/sl_agents' },
+      { icon: 'gitee', link: 'https://gitee.com/yzsunlei/sl_agents' },
+    ],
+
+    footer: {
+      copyright: "Copyright © 2016-2025 <a href='https://www.yzsunlei.com/' target='_blank'>yzsunlei.com</a> ｜ <a href='https://beian.miit.gov.cn/' target='_blank'>鄂ICP备14015590号-8</a>",
+    }
   }
 })
