@@ -9,7 +9,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '使用MyAgents', link: '/' },
+      { text: '使用MyAgents', link: 'http://sl-agents.yzsunlei.com/' },
       { text: 'Agent 介绍', link: '/agent-desc' },
       { text: 'Agent 平台', link: '/agent-platform' },
     ],

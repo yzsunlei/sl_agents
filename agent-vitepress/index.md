@@ -14,8 +14,8 @@ hero:
       text: 了解AI智能体
       link: /agent-desc
     - theme: alt
-      text: 使用AI智能体
-      link: /
+      text: 使用MyAgents
+      link: http://sl-agents.yzsunlei.com/
 
 features:
   - title: 多平台Agent调用
