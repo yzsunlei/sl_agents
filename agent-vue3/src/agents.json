@@ -5,8 +5,8 @@
             {
                 "name": "腾讯-元器",
                 "type": "yuanqi",
-                "id": "",
-                "url": ""
+                "id": "dDi53CDMR1mV",
+                "url": "https://yuanqi.tencent.com/agent/dDi53CDMR1mV?from=share"
             },
             {
                 "name": "字节-扣子",
@@ -17,14 +17,43 @@
             {
                 "name": "清华-智谱",
                 "type": "zhipu",
-                "id": "",
-                "url": ""
+                "id": "6850ef5d1b9d7f28718e9ece",
+                "url": "https://chatglm.cn/share/7F2f7mi2"
             },
             {
                 "name": "百度-文心",
                 "type": "wenxin",
-                "id": "",
-                "url": ""
+                "id": "URCUJP15xgOLHKRyINp3qLCbfo92TUoY",
+                "url": "https://mbd.baidu.com/ma/s/fj7ACm30"
+            }
+        ]
+    },
+    {
+        "name": "VueJS代码生成",
+        "platforms": [
+            {
+                "name": "腾讯-元器",
+                "type": "yuanqi",
+                "id": "Ch1PBRrC2JAC",
+                "url": "https://yuanqi.tencent.com/agent/Ch1PBRrC2JAC?from=share"
+            },
+            {
+                "name": "字节-扣子",
+                "type": "kouzi",
+                "id": "7516770622409162779",
+                "url": "https://www.coze.cn/s/kA14FvihYVA/"
+            },
+            {
+                "name": "清华-智谱",
+                "type": "zhipu",
+                "id": "6850f0f02b9ebd9d10fffc0c",
+                "url": "https://chatglm.cn/share/hF2L7mOc"
+            },
+            {
+                "name": "百度-文心",
+                "type": "wenxin",
+                "id": "Qi06HlDt64fLqVjVGSwr2PVXSpY6nuqh",
+                "url": "https://mbd.baidu.com/ma/s/6vcO0byt"
             }
         ]
     }
