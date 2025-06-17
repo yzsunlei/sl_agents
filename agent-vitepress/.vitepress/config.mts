@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/docs/',
   title: "MyAgents",
   description: "有用的AI智能体集合",
   themeConfig: {
